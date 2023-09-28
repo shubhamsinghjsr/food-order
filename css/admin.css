@@ -1,0 +1,141 @@
+/* 
+author:shubham singh:
+theme: food ouder website admine
+vwesion :1.0
+*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper{
+    /* border: 1px solid black; */
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+.text-center{
+    text-align: center;
+}
+
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+.tbl-full{
+    width: 100%;
+}
+
+.tbl-30{
+    width: 30%;
+}
+table tr th{
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+}
+
+table tr td{
+    padding: 1%;
+}
+
+.btn-primary{
+    background-color: #54a0ff;
+    padding: 1%;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-primary:hover{
+    background: #2e86de;
+}
+
+.btn-secondary{
+    background-color: #09f1b3;
+    padding: 1%;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-secondary:hover{
+    background: #10ac84;
+}
+
+
+.btn-denger{
+    background-color: #e84118;
+    padding: 1%;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-denger:hover{
+    background: #871b03;
+}
+
+.success{
+    color: #ffa502;
+}
+.error{
+    color: #d63031;
+}
+/* css for menu */
+.menu{
+    border-bottom: 1px solid gray;
+}
+.menu{
+    text-align: center;
+}
+.menu ul{
+    list-style-type: none;
+}
+.menu ul li{
+    display: inline;
+    padding: 1%;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #FC427B;
+}
+.menu ul li a:hover{
+    color: #FD7272;
+}
+
+/* main content css */
+
+.main-content{
+    /* margin: 1% 0; */
+    background-color: #8395a7;
+    padding: 3% 0;
+}
+
+.col-4{
+    width: 18%;
+    background-color: #fff;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+}
+/* css footer */
+.footer{
+    background-color: #B33771;
+    color: #fff;
+}
+
+/* login css */
+
+
+.login{
+    border: 1px solid gray;
+    width: 20%;
+    margin: 10% auto;
+    padding: 2%;
+}
